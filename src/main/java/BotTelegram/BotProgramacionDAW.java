@@ -34,7 +34,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 			return caraCruz();
 		
 		case ("/animos"):
-			return "¡nimo!! Cada vez queda menos para acabar el curso";
+			return "√Ånimo!! Cada vez queda menos para acabar el curso";
 		
 		case ("/cuantoFalta"):
 			return cuantoFalta();
@@ -44,7 +44,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 
 		
 		case ("/infoCreador"):
-			return "Jan F. Vidal" +"\nestudiante de 1∫ de DAW en el instituto IES El Camin‡s. "
+			return "Jan F. Vidal" +"\nestudiante de 1¬∫ de DAW en el instituto IES El Camin√†s. "
 					+"Curso 20/21";
 		
 		case ("/retos"):
@@ -63,10 +63,10 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 
 		return "Hola! Mi nombre es Boty y soy un bot creado por una estudiante de "
 				+ "Desarrollo de Aplicaciones Web."
-				+ "\nSi tienes dudas y quieres saber de quÈ soy capaz, "
-				+ "ejecuta el comando /help y tendr·s acceso a todas las instrucciones que tengo "
+				+ "\nSi tienes dudas y quieres saber de qu√© soy capaz, "
+				+ "ejecuta el comando /help y tendr√°s acceso a todas las instrucciones que tengo "
 				+ "disponibles!!"
-				+ "\n°°Casi se me olvida!! Si no ejecutas ning˙n comando prefijado te devolverÈ el mensaje"
+				+ "\n¬°¬°Casi se me olvida!! Si no ejecutas ning√∫n comando prefijado te devolver√© el mensaje"
 				+ " que me hayas enviado.";
 	}
 	
@@ -77,14 +77,14 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
  		
  		return("Hola humano!! Mi nombre es Boty y usando estos comandos puedes ver de lo que soy capaz!!"
  				+ "\n\n /help: muestra la ayuda."
- 			//	+ "\n /randomPic: envia una imagen aleatoria de un banco de im·genes."
- 				+ "\n /luckyCookie: abre una galleta de la suerte y hace una predicciÛn."
- 				+ "\n /randomNum: responde con un n˙mero aleatorio del 0 al 100."
- 				+ "\n /animos: muestra un mensaje de ·nimo para estudiantes en momentos difÌciles."
- 				+ "\n /cuantoFalta: cuenta los dÌas que faltan para verano."
+ 			//	+ "\n /randomPic: envia una imagen aleatoria de un banco de im√°genes."
+ 				+ "\n /luckyCookie: abre una galleta de la suerte y hace una predicci√≥n."
+ 				+ "\n /randomNum: responde con un n√∫mero aleatorio del 0 al 100."
+ 				+ "\n /animos: muestra un mensaje de √°nimo para estudiantes en momentos dif√≠ciles."
+ 				+ "\n /cuantoFalta: cuenta los d√≠as que faltan para verano."
  				+ "\n /infoCreador: muestra los datos del creador del bot."
  				+ "\n /games: muestra los comandos sobre los juegos disponibles."
- 				+ "\n\nEn caso de que no envÌes ning˙n comando te devolverÈ tu propio mensaje repetido."
+ 				+ "\n\nEn caso de que no env√≠es ning√∫n comando te devolver√© tu propio mensaje repetido."
  				
  				);
  		
@@ -97,7 +97,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
  				+ "\n\n /flipCoin: simula el juego de cara o cruz."
  				+ "\n /retos: juego de retos."
  				+ "\n /adivina: juego de adivinanzas."
- 				+ "\n\nEn caso de que no envÌes ning˙n comando te devolverÈ tu propio mensaje repetido."
+ 				+ "\n\nEn caso de que no env√≠es ning√∫n comando te devolver√© tu propio mensaje repetido."
  				
  				);
  		
@@ -116,13 +116,13 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
  	public String luckyCookie() {
  		
  		String[] mensajes = {
- 				"No hay mal que por bien no venga", "No te va a tocar la loterÌa, por lo menos tendr·s salud",
- 				"Los segundos ser·n los primeros", "Un buen bocata de lomo, bacon y queso no te vendrÌa mal",
- 				"El gimnasio no te sienta bien, mejor tÛmate una cerveza", "Est·n volando hostias y est·s en el aeropuerto, corre.",
- 				"Tercio y tapa", "No hay mal que por bien no venga", "CÛmprate un billete de aviÛn y no vuelvas",
- 				"PÌdete otra, esto va para largo", "Si est·s leyendo esto es porque sabes leer", "Nunca digas nunca",
- 				"Si quieres, puedes. Otra cerveza, por favor", "L·nzate, tambiÈn le gustas", "Si os gust·is, liaros",
- 				"Necesitas un cambio de aires", "No hagas una ingenierÌa, mejor ap˙ntate a un gym", "No te muevas, te va a atropellar un camiÛn",
+ 				"No hay mal que por bien no venga", "No te va a tocar la loter√≠a, por lo menos tendr√°s salud",
+ 				"Los segundos ser√°n los primeros", "Un buen bocata de lomo, bacon y queso no te vendr√≠a mal",
+ 				"El gimnasio no te sienta bien, mejor t√≥mate una cerveza", "Est√°n volando hostias y est√°s en el aeropuerto, corre.",
+ 				"Tercio y tapa", "No hay mal que por bien no venga", "C√≥mprate un billete de avi√≥n y no vuelvas",
+ 				"P√≠dete otra, esto va para largo", "Si est√°s leyendo esto es porque sabes leer", "Nunca digas nunca",
+ 				"Si quieres, puedes. Otra cerveza, por favor", "L√°nzate, tambi√©n le gustas", "Si os gust√°is, liaros",
+ 				"Necesitas un cambio de aires", "No hagas una ingenier√≠a, mejor ap√∫ntate a un gym", "No te muevas, te va a atropellar un cami√≥n",
  				"Eres peor que poner los ; en Java", "Majo pero no me liaba", "NO PUC MES"};
  		
  		String msj=null;
@@ -175,7 +175,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
         
         //String faltanX=;
  
-        return "Faltan " + dias +" dÌas para verano."; 
+        return "Faltan " + dias +" d√≠as para verano."; 
 		
  	}
 	
@@ -183,12 +183,12 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 	public String retos() {
  		
  		String[] retos = {
- 				"Aguanta la respiraciÛn 30 segundos.", "No puedes hablar en 5 minutos", "Haz la gallina cada vez que hable alguien",
- 				"Haz el pino durante 10 segundos sin pared", "MantÈn los ojos abiertos durante 30 segundos", "Ch˙pate un codo",
- 				"EnvÌa un mensaje preocupante a un amigo", "Imita con gestos tu pelÌcula favorita", "Imita a uno de los jugadores",
- 				"Gira sobre ti mismo 10 veces y ponte a la pata coja", "Ponte los pies por detr·s de la cabeza", "Al suelo y 15 flexiones",
- 				"Llama al timbre de tus vecinos y pÌdeles algo para cocinar", "Tienes 5 minutos para vestirte como uno de tus compaÒeros", 
- 				"Finge haber suspendido uno de los ex·menes finales y llama a un familiar" };
+ 				"Aguanta la respiraci√≥n 30 segundos.", "No puedes hablar en 5 minutos", "Haz la gallina cada vez que hable alguien",
+ 				"Haz el pino durante 10 segundos sin pared", "Mant√©n los ojos abiertos durante 30 segundos", "Ch√∫pate un codo",
+ 				"Env√≠a un mensaje preocupante a un amigo", "Imita con gestos tu pel√≠cula favorita", "Imita a uno de los jugadores",
+ 				"Gira sobre ti mismo 10 veces y ponte a la pata coja", "Ponte los pies por detr√°s de la cabeza", "Al suelo y 15 flexiones",
+ 				"Llama al timbre de tus vecinos y p√≠deles algo para cocinar", "Tienes 5 minutos para vestirte como uno de tus compa√±eros", 
+ 				"Finge haber suspendido uno de los ex√°menes finales y llama a un familiar" };
  				
  		String reto=null;
  		
@@ -207,12 +207,12 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 	public String adivina() {
  		
  		String[] adivinanzas = {
- 				"øDe quÈ color es el caballo blanco de Santiago?", "Finalizan por el principio y comienzan por el final, en todos los aÒos de una vida desde siempre las podr·s encontrar øQuÈ son? ",
+ 				"¬øDe qu√© color es el caballo blanco de Santiago?", "Finalizan por el principio y comienzan por el final, en todos los a√±os de una vida desde siempre las podr√°s encontrar ¬øQu√© son? ",
  				"En la temporada de brillante sol, maduro la fruta con lluvia y calor.", "Soy un mes de vacaciones con nombre de emperador. A veces refresco el rostro otras doy mucho calor.",
- 				"Agua pasa por mi casa, cate de mi corazÛn.", "Cuanto m·s me lavo, mas sucia estoy.",
- 				"En alto vive, en alto mora, en alto teje, la tejedora.", "Tiene dientes y no come, tiene cabeza y no es hombre.", "QuiÈn bebe agua por los pies?",
- 				"Ave me llaman a veces y es llana mi condiciÛn.", "Soy blanco como la nieve y dulce como la miel; yo alegro los pasteles y la leche con cafÈ.", "QuÈ animal tiene silla y no se puede sentar?",
- 				"La A, anda. La B, besa. La C, reza. øQuÈ fruta es?", "Dentro de una vaina voy y ni espada ni sable soy.", "Tengo duro cascarÛn, pulpa blanca y lÌquido dulce en mi interior."};
+ 				"Agua pasa por mi casa, cate de mi coraz√≥n.", "Cuanto m√°s me lavo, mas sucia estoy.",
+ 				"En alto vive, en alto mora, en alto teje, la tejedora.", "Tiene dientes y no come, tiene cabeza y no es hombre.", "Qui√©n bebe agua por los pies?",
+ 				"Ave me llaman a veces y es llana mi condici√≥n.", "Soy blanco como la nieve y dulce como la miel; yo alegro los pasteles y la leche con caf√©.", "Qu√© animal tiene silla y no se puede sentar?",
+ 				"La A, anda. La B, besa. La C, reza. ¬øQu√© fruta es?", "Dentro de una vaina voy y ni espada ni sable soy.", "Tengo duro cascar√≥n, pulpa blanca y l√≠quido dulce en mi interior."};
  				
  		String adiv=null;
  		
@@ -232,7 +232,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 	
 	
 	public void onUpdateReceived(final Update update) {
-		// Esta funciÛn se invocar· cuando nuestro bot reciba un mensaje
+		// Esta funci√≥n se invocar√° cuando nuestro bot reciba un mensaje
  
 		// Se obtiene el mensaje escrito por el usuario
 		final String messageTextReceived = update.getMessage().getText();
@@ -244,7 +244,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
 		SendMessage message = new SendMessage().setChatId(chatId).setText(setResponse(messageTextReceived));
 		
 		try {
-			// Se envÌa el mensaje
+			// Se env√≠a el mensaje
 			execute(message);
 		} catch (TelegramApiException e) {
 			e.printStackTrace();
@@ -259,7 +259,7 @@ public class BotProgramacionDAW extends TelegramLongPollingBot {
  
 	@Override
 	public String getBotToken() {
-		// Se devuelve el token que nos generÛ el BotFather de nuestro bot
-		return "1845461233:AAGCIdxkTZbZX8LXTFUbUu3IY8WwfDPZjNo";
+		// Se devuelve el token que nos gener√≥ el BotFather de nuestro bot
+		return "*******************************************";
 	}
 }
